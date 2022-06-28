@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+#searchBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+    background: black;
+}
+
+input {
+    padding: 0.5rem;
+    outline: none;
+    font-size: 2rem;;
+}
+
+#searchButton {
+   margin-left: 10px;
+   font-size: 2rem;
+}
+
+.container {
+    position: relative;
+}
+
+#gallery {
+    position: fixed;
+    width: 50%;
+    height: auto;
+    margin: 120px 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    background-color: black;
+    top: 5%;
+}
+
+#startButton {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#stopButton {
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
